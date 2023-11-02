@@ -13,6 +13,7 @@ class StockControllerTest {
     void testAddProduct() {
         // Mock das dependências (FileHandler e StockView)
         FileHandler fileHandlerMock = Mockito.mock(FileHandler.class);
+        
         StockView stockViewMock = Mockito.mock(StockView.class);
 
         // Criando uma instância de StockController com as dependências mockadas
